@@ -1,0 +1,45 @@
+.right {
+  float: right;
+  width: 900px;
+  margin-top: 15px;
+}
+.right .Title {
+  float: left;
+  width: 900px;
+  background: #e2e2e2;
+  margin-top: 15px;
+  border-left: 17px solid #e50012;
+}
+.right .Title span {
+  padding-left: 15px;
+  color: #333;
+}
+.right .itemsWarp {
+  margin-top: 4px;
+  float: left;
+  width: 100%;
+}
+.right .itemsWarp .itemsContent {
+  background: url("../images/jxs_03.png") no-repeat 840px 17px;
+  width: 900px;
+  height: 86px;
+  border: 1px solid #e0d7d8;
+  position: relative;
+}
+.right .itemsWarp .itemsContent .itemsTitle {
+  position: absolute;
+  top: 32px;
+  left: 127px;
+  font-size: 20px;
+  color: #e50012;
+  font-weight: bold;
+}
+.right .itemsWarp .itemsContent .itemsTitle b {
+  position: absolute;
+  left: -107px;
+  background: url("../images/jxs_icon.jpg") no-repeat;
+  width: 81px;
+  height: 27px;
+  display: block;
+  top: -3px;
+}

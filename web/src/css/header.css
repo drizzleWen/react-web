@@ -1,0 +1,379 @@
+ul {
+  list-style-type: none;
+}
+colorF {
+  color: #fff;
+}
+.a {
+  display: inline-block;
+  color: #666;
+  width: 100%;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.a:hover {
+  color: #e40015;
+  text-decoration: none;
+}
+.w {
+  width: 1152px;
+  margin: 0 auto;
+}
+.headerTop {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  height: 34px;
+  line-height: 0px;
+  text-align: center;
+  font-family: "微软雅黑";
+  color: #666;
+  font-size: 12px;
+}
+.headerTop .headerTopL {
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+.headerTop ul li {
+  display: inline-block;
+}
+.user-name {
+  padding: 0 11px 0 12px;
+}
+.headerTop .headerTopR {
+  list-style-type: none;
+  float: right;
+  height: 34px;
+  line-height: 34px;
+}
+.headerTopR li {
+  height: 34px;
+  background: url("../images/new_png_05.png") right 50% no-repeat;
+}
+.headerTopR li:hover {
+  color: #e40015;
+}
+.headerTopR span {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  border-left: 1px solid #e6e6e6;
+  margin-left: -1px;
+}
+.headerTopR li i {
+  background: url("../images/new_png_06.png") center 50% no-repeat;
+  float: right;
+  width: 7px;
+  height: 34px;
+  display: block;
+  transition: transform 0.2s ease-in 0s;
+  -webkit-transition: -webkit-transform 0.2s ease-in 0s;
+  margin-left: 10px;
+}
+.headerTopR .myZkhLi:hover i {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.headerTopR .helpLi:hover i {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.headerTopR .myZkhLi:hover .myZkhLiUl {
+  display: inline-block;
+}
+.headerTopR .myZkhLi {
+  border: 1px solid transparent;
+  position: relative;
+}
+.myZkhLiUl,
+.helpLiUl {
+  display: none;
+  position: absolute;
+  left: -1px;
+  top: 32px;
+  width: 102%;
+  background: #fff;
+  border: 1px #e6e6e6 solid;
+  border-top: none;
+  z-index: 1000;
+}
+.helpLiUl {
+  width: 103%;
+}
+.myZkhLiUl li,
+.helpLiUl li {
+  float: left;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px;
+  background: none;
+}
+.myZkhLiUl li:hover,
+.helpLiUl li:hover {
+  background: #f0f0f0;
+}
+.myZkhLiUl li a,
+.helpLiUl li a {
+  float: left;
+  width: 100%;
+  text-indent: 12px;
+  text-align: left;
+}
+.myZkhLiUl li a:hover,
+.helpLiUl li a:hover {
+  text-decoration: none;
+}
+.headerTopR .myZkhLi:hover {
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  box-sizing: border-box;
+  background: none !important;
+}
+.headerTopR .helpLi {
+  border: 1px solid transparent;
+  position: relative;
+}
+.headerTopR .helpLi:hover {
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  background: none;
+}
+.headerTopR .helpLi:hover .helpLiUl {
+  display: block;
+}
+.headerTopR .telLi {
+  height: 34px;
+  background: none;
+}
+.postage {
+  color: #e40015;
+  font-size: 16px;
+}
+.postage img {
+  display: inline-block;
+  height: 16px;
+  width: 22px;
+  margin: 0 5px 4px 0;
+  background: url("../images/postage.png") center 50% no-repeat;
+}
+.telLi img {
+  background: url("../images/new_png_03.png") center 50% no-repeat;
+}
+.postage a {
+  color: #e40015;
+}
+.menuWrap ul li a {
+  color: #fff;
+}
+.headerBanner {
+  height: 60px;
+  position: relative;
+}
+.headerBanner i {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 18px;
+  right: 8px;
+  background: url("../images/top_cha.png");
+}
+.headerMid {
+  height: 85px;
+  padding-top: 10px;
+}
+.log {
+  float: left;
+}
+.log a {
+  display: inline-block;
+  height: 64px;
+  width: 216px;
+  background: url("../images/zkh-logo.png") center 50% no-repeat;
+}
+.search {
+  width: 553px;
+  margin: 6px 0 0 106px;
+  float: left;
+}
+.searchTerm span {
+  font-size: 12px;
+  display: inline-block;
+  float: left;
+}
+.searchTerm {
+  height: 18px;
+  width: 550px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 4px;
+}
+.searchTerm ul {
+  display: inline-block;
+  font-size: 12px;
+  height: 18px;
+  width: 500px;
+  overflow: hidden;
+  position: absolute;
+}
+.searchTerm li {
+  display: inline-block;
+  float: left;
+}
+.searchTerm li a {
+  padding: 0 4px !important;
+}
+.shoppingCar {
+  font-size: 12px;
+  float: right;
+  position: relative;
+}
+.shoppingCar .car {
+  border: 1px solid #ddd;
+  height: 32px;
+  background: url("../images/icon-cart-red_200x200.png") 32px 6px no-repeat;
+  position: relative;
+  padding-left: 55px;
+  width: 180px;
+  left: 0px;
+  top: 15px;
+  line-height: 32px;
+  overflow: hidden;
+  z-index: 99;
+  background: #fff;
+}
+.shoppingCar .goodsNum {
+  height: 15px;
+  border-radius: 15px;
+  background-color: #e50012;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 15px;
+  width: auto;
+  min-width: 7px;
+  padding: 0 4px;
+  position: absolute;
+  top: 3px;
+  left: 130px;
+}
+.carDetail {
+  position: absolute;
+  top: 46px;
+  right: 0;
+  width: 358px;
+  min-height: 60px;
+  border: 1px solid #ddd;
+  background: #fff;
+  display: none;
+  padding: 20px;
+  z-index: 101;
+}
+.coverLine {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  height: 2px;
+  width: 178px;
+  border: 2px solid #fff;
+  z-index: 100;
+}
+.carDetail em {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  width: 50px;
+  border: none;
+  position: relative;
+  top: -5px;
+  background: url("../images/shopping.jpg") 6px 6px no-repeat;
+}
+.shoppingCar .car:hover {
+  border-bottom: 1px solid #fff;
+}
+.shoppingCar:hover .carDetail {
+  display: block;
+}
+.carDetail:hover .car {
+  border-bottom: 5px solid #fff;
+}
+.productType {
+  display: inline-block;
+  margin-right: 12px;
+  float: left;
+}
+.productTypeTitle {
+  width: 239px;
+  height: 41px;
+  background: #e50112;
+  line-height: 41px;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px;
+  margin-right: 12px;
+  margin-left: -10px;
+}
+.menuWrap a:hover {
+  text-decoration: none;
+}
+.menuWrap {
+  width: 100%;
+  display: inline-block;
+  height: 41px;
+  color: #fff;
+  font-size: 16px;
+}
+.menuWrap ul {
+  margin-left: 10px;
+}
+.menuWrap ul li {
+  display: inline-block;
+  line-height: 41px;
+  padding: 0 28.9px;
+  background: #e50112;
+}
+.dropdownLink {
+  display: inline-block;
+  width: 156%;
+}
+.menuWrap ul li:hover {
+  background: #f00;
+}
+.menuWrap ul li a:hover {
+  color: #fff;
+}
+.partner,
+.techCenter,
+.aboutZkh {
+  position: relative;
+}
+.partnerDrop,
+.techCenterDrop,
+.aboutZkhDrop {
+  width: 100%;
+  font-size: 14px;
+  position: absolute;
+  top: 41px;
+  left: -10px;
+  background-color: rgba(229,1,18,0.8);
+  padding: 0;
+  text-align: center;
+  display: none;
+  z-index: 999;
+}
+.partner:hover .partnerDrop,
+.techCenter:hover .techCenterDrop,
+.aboutZkh:hover .aboutZkhDrop {
+  display: block;
+}
+.partner .partnerDrop li,
+.techCenter .techCenterDrop li,
+.aboutZkh .aboutZkhDrop li {
+  width: 100%;
+  padding: 0;
+  height: auto;
+  background: none;
+}

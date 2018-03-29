@@ -1,0 +1,16 @@
+.warp {
+  width: 238px;
+  border: 1px solid #e2e2e2;
+  border-top: none;
+}
+.warp ul li {
+  border-top: 1px solid #e2e2e2;
+  height: 38px;
+  line-height: 38px;
+}
+.warp ul li a {
+  margin-left: 35px;
+}
+.warp ul li:first-Child {
+  background: #e2e2e2;
+}

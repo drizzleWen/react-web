@@ -1,0 +1,111 @@
+.footIcon {
+  width: 100%;
+  height: 95px;
+  background: #ececec;
+  margin-top: 50px;
+}
+.footIcon .iconItem {
+  width: 1152px;
+  margin: 0 auto;
+}
+.footIcon .iconItem .iconImg {
+  margin: 10px 56px 0 56px;
+}
+.foot {
+  width: 100%;
+  min-width: 1152px;
+  background: #fafafa;
+  border: 1px solid #e3e3e3;
+  border-width: 1px 0;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.foot .footInner {
+  width: 1252px;
+  margin: 0 auto;
+  position: relative;
+}
+.foot .footInner .list1 {
+  width: 300px;
+  padding: 0 74px 0 0px;
+  float: left;
+  height: 140px;
+  line-height: 18px;
+  border-right: 1px solid #e3e3e3;
+}
+.foot .footInner .list1 .listSpan {
+  float: left;
+  width: 306px;
+  padding-left: 80px;
+  height: 70px;
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.foot .footInner .list1 .listSpan .listA {
+  float: left;
+  color: #e50012;
+  text-decoration: none;
+}
+.foot .footInner .listLi {
+  float: left;
+  width: 136px;
+  height: 140px;
+  padding: 0 22px;
+  line-height: 18px;
+  border-right: 1px solid #e3e3e3;
+}
+.foot .footInner .listLi .listSpan {
+  float: left;
+  width: 100%;
+  padding-left: 80px;
+  height: 60px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.foot .footInner .listLi .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+.foot .footInner .listLi .a {
+  color: #666;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+.foot .footInner .listI {
+  float: left;
+  width: 100%;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: normal;
+}
+.fIcon1 {
+  background: url("../images/font_1.png") 13px top no-repeat;
+}
+.fIcon2 {
+  background: url("../images/font_2.png") 5px top no-repeat;
+  margin-left: 36px;
+}
+.fIcon3 {
+  background: url("../images/font_3.png") left top no-repeat;
+}
+.fIcon4 {
+  background: url("../images/font_4.png") 17px top no-repeat;
+  margin-left: 36px;
+}
+.footFm {
+  line-height: 22px;
+  color: #666;
+  text-align: center;
+  margin: 15px 0;
+}

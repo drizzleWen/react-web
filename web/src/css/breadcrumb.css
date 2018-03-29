@@ -1,0 +1,9 @@
+.rim {
+  border: 1px solid #e2e2e2;
+  margin-top: 15px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.rim .name {
+  color: #666;
+}

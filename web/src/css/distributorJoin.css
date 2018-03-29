@@ -1,0 +1,109 @@
+.right {
+  float: right;
+  width: 900px;
+  margin-top: 15px;
+}
+.right .title {
+  float: left;
+  width: 900px;
+  border: 1px #e2e2e2 solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #e50012;
+}
+.right .word {
+  float: left;
+  width: 870px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.right .phone {
+  float: left;
+  width: 900px;
+  border-bottom: 1px #e2e2e2 solid;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.right .phone span {
+  float: left;
+  border: 1px #e2e2e2 solid;
+  border-top: 2px #e50012 solid;
+  border-bottom: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #e50012;
+}
+.right .phoneContent {
+  float: left;
+  width: 100%;
+}
+.right .phoneContent .phoneImg {
+  float: left;
+  padding: 15px 5px;
+  width: 90px;
+}
+.right .phoneContent .phoneWord {
+  margin-left: 120px;
+  padding: 15px 0;
+}
+.right .phoneContent .phoneWord li {
+  float: left;
+  width: 300px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+.right .phoneContent .phoneWord li i {
+  float: left;
+  width: 75px;
+  color: #999;
+  text-align: right;
+  padding-right: 10px;
+  font-style: normal;
+}
+.right .form {
+  float: left;
+  width: 900px;
+  padding: 20px;
+}
+.right .form .li {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.right .form .li .i {
+  float: left;
+  line-height: 40px;
+  font-family: "宋体";
+  color: #e50012;
+  position: absolute;
+  left: 18px;
+}
+.right .form .li .span {
+  float: left;
+  width: 96px;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  text-align: right;
+  padding-right: 10px;
+}
+.right .form .li .text {
+  float: left;
+  height: 38px;
+  width: 300px;
+  line-height: 38px;
+  padding: 0 10px;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.right .form .li div.tyc {
+  font-size: 12px;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 107px;
+}
+.right .form .li .textarea {
+  float: left;
+  width: 300px;
+}

@@ -1,0 +1,94 @@
+.news {
+  height: 60px;
+  width: 230px;
+  margin-top: 10px;
+  float: right;
+}
+.a {
+  display: inline-block;
+  color: #666;
+  width: 100%;
+  text-decoration: none;
+}
+.a:hover {
+  color: #e40015;
+  text-decoration: none;
+}
+.sming {
+  height: 60px;
+  width: 230px;
+  margin-top: 10px;
+}
+.sming .findproduct {
+  padding-top: 6px;
+  color: #666;
+  float: left;
+  width: 77px;
+  text-decoration: none;
+  height: 100%;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+}
+.sming .findproduct:hover {
+  color: #cd0200;
+}
+.findpro {
+  margin-top: 4px;
+}
+.frereg {
+  margin-left: -1px;
+}
+.inews {
+  height: 186px;
+  width: 229px;
+  border: 1px #e2e2e2 solid;
+  margin-top: 4px;
+}
+.inewsT {
+  padding: 0;
+  height: 28px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.inewsT li {
+  display: inline-block;
+  height: 100%;
+  width: 112px;
+  padding: 0;
+  line-height: 28px;
+  text-align: center;
+}
+.inewsTL {
+  border-right: 1px solid #e2e2e2;
+}
+.inewsBackground {
+  background: #f0f0f0;
+}
+.inewsTR {
+  float: right;
+  text-align: center;
+}
+.inewsB {
+  padding: 0px 20px 10px 5px;
+  margin: -4px 0 0 0;
+  overflow: hidden;
+  width: 100%;
+  height: 165px;
+}
+.inewsB li {
+  width: 210px;
+  padding: 0;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  padding-left: 10px;
+  background: url("../images/new_img_02.jpg") 5px 50% no-repeat;
+}
+.newsDetail {
+  text-align: center;
+  overflow: hidden;
+  height: 135px;
+  margin-top: 10px;
+}
+.inewsCode {
+  padding-top: 8px;
+}

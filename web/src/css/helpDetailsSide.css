@@ -1,0 +1,28 @@
+.n_nav_t {
+  float: left;
+  width: 238px;
+  border: 1px #e2e2e2 solid;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
+.n_nav_list {
+  float: left;
+  width: 238px;
+  border: 1px #e2e2e2 solid;
+  border-top: none;
+  line-height: 28px;
+}
+.n_nav_list ul {
+  width: 100%;
+}
+.n_nav_list ul li.on {
+  background: #e2e2e2;
+  width: 100%;
+}
+.n_nav_list ul li.on ul {
+  background: #fff;
+}
+.n_nav_list ul li.on ul li a {
+  margin-left: 35px;
+}

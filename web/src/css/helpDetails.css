@@ -1,0 +1,14 @@
+.local {
+  border: 1px #e2e2e2 solid;
+  margin-top: 15px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.local .i {
+  font-size: 12px;
+  font-family: "宋体";
+  padding: 0 10px;
+}
+.local .a {
+  color: #666;
+}

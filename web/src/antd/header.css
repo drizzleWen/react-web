@@ -1,0 +1,13 @@
+.ant-btn-primary {
+  background: #e50112;
+  font-size: 16px;
+  border-color: #e50112;
+  border-radius: 0;
+}
+.ant-btn-primary:hover {
+  background: #e50112;
+  border: 1px solid #e50112;
+}
+.ant-input-affix-wrapper:hover .ant-input {
+  border: 1px solid #e50112 !important;
+}
